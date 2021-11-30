@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janvi's Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            margin: 0px;
+            padding : 0px;
+            height: 700px;
+            width: 1000px;
+            background: url(gym.jpg);
+            /* this will not repeat images again again */
+            background-repeat: no-repeat;
+            background-size: auto;
+            background-size: 100%;
+            color: white;
+            /* font-family: 'Lobster', cursive; */
+        }
+        .left
+        {
+            display: inline-block;
+            /* border: 2px red solid; */
+            font-family: 'Lobster', cursive;
+            position : absolute;
+            top : 20px;
+            left : 15px;
+            
+        }
+        .mid
+        {
+            display: block;
+            width: 70%;
+            margin: 20px 300px;
+            /* border : 2px green solid; */
+        }
+        .right
+        {
+            display: inline-block;
+            /* border: 2px blue solid; */
+            position: absolute;
+            right: 373px;
+            top : 77px;
+        }
+        .navbar
+        {
+            display: inline-block; 
+            
+        }
+        .navbar li
+        {
+            display: inline-block;
+            font-size: 20px;
+            /* font-family: 'Lobster', cursive; */
+            font-family: 'Ubuntu', sans-serif;
+
+        }
+        .navbar li a
+        {
+            color: white;
+            text-decoration: none;
+            padding : 17px 19px;
+        }
+        .navbar li a:hover ,.navbar li a:active
+        {
+            text-decoration: underline;
+            color: grey;
+        }
+        .left img
+        {
+            width :100px;
+            filter: invert(100%);
+    
+        }
+        .left div
+        {
+            text-align: center;
+            /* line-height: 10px; */
+            font-size: 30px;
+        }
+        .btn
+        {
+            margin: 5px 10px;
+            background-color: black ;
+            color: white;
+            padding : 4px 14px;
+            border-radius: 10px;
+            border : 2px grey solid;
+            cursor: pointer;
+           /* ]font-family: 'Lobster', cursive; */
+        }
+        .btn:hover
+        {
+            text-decoration: underline;
+            color: rgb(173, 99, 99);
+            background-color: rgba(32, 23, 28, 0.822);
+        }
+        /* .container /*THIS IS FOR REDIUM COLOR BORDER
+        {
+            display: block;
+            /* border: 2px greenyellow solid; 
+            margin : 69px 15px;
+            width : 70%;
+            padding : 64px 10px;
+            border-radius: 15px;
+        }
+        .form-type input{
+
+            margin : 6px 34px;
+            padding : 7px 100px; */
+            /* border-radius: 10px;
+            font-family: 'Ubuntu', sans-serif;
+           
+        }
+        .container h2
+        {
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .container button{
+            margin: 25px auto;
+        }
+        #gen 
+        {
+            margin: 3px auto;
+            padding : 10px 12px;
+            font-family: 'Ubuntu', sans-serif;
+
+        } */
+        .container
+        {
+            display : block;
+            /* text-align: center; */
+            margin : 200px 50px;
+            padding-left : 30px;
+           
+        }
+        .container li a{
+            text-decoration: none;
+            color: aqua;
+            font-size: 30px;
+            
+        }
+        .container li{
+            /* list-style-type: none ; */
+            size : 10px;
+        }
+        .container li a:hover
+        {
+            color : gray;
+            text-decoration: underline;
+            
+        }
+    </style>
+   
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="gymlogo.jpg" alt="" >
+            <div>Fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href = "" class="active">Home</a></li>
+                <li><a href = ""class="active">Fitness Calculator</a></li>
+                <li><a href = ""class="active">Contact Us</a></li>
+                <li><a href = ""class="active">About Us</a></li>
+             </ul>
+        </div>
+        <div class="right">
+            <!-- <button class="btn">Cont Us</button> -->
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <!-- <h2>Best GYM </h2> -->
+        <!-- <form action="nonaction.php">
+            <div class="form-type">
+                 Name : <input type="name" placeholder="Enter Your Name">
+            </div>
+            <div class="form-type">
+                Email Id : <input type="email" placeholder="Enter Your Email id">
+            </div>
+            <div class="form-type">
+                Cont no : <input type="age" placeholder="Enter Your Age">
+            </div>
+            <div id="gen">
+                Gender &nbsp;: &nbsp;Male<input type="radio" >&nbsp;&nbsp;Female<input type="radio" >
+            </div> -->
+            <!-- <button class="btn">Submit</button>
+            <input type="reset" class="btn"> -->
+            <ul style="list-style-type: square;">
+                <li><a href = "register.html" target="_blank" >Register Your Self</a></li>
+            </ul>
+    </div>
+</body>
+</html>
